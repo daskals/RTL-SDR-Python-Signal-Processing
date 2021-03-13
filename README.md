@@ -5,10 +5,10 @@ Experimental DSP Python Scripts using an RTL-SDR USB dongle
 
 
 # Dependencies:
--->Windows/Linux/OSX
--->Python 2.7.x/3.3+
--->librtlsdr
--->Optional: NumPy (wraps samples in a more convenient form)
+-->Windows/Linux/OSX\
+-->Python 2.7.x/3.3+\
+-->librtlsdr\
+-->Optional: NumPy (wraps samples in a more convenient form)\
 
 
 
@@ -72,7 +72,7 @@ wget https://raw.githubusercontent.com/keenerd/rtl-sdr-misc/master/heatmap/flatt
 
 Guide:https://www.rtl-sdr.com/tag/install-guide/
 
-## Troubleshooting:
+### Troubleshooting:
 
 After installing the libraries you will likely need to unload the DVB-T drivers, which Linux uses by default.
 To unload them temporarily type "sudo rmmod dvb_usb_rtl28xxu" into terminal. This solution is only temporary as when you replug the dongle or restart the PC, the DVB-T drivers will be reloaded.
